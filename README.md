@@ -8,10 +8,17 @@ to jQuery when back-end code expects a serialized object.
 To use, simply include the plugin's .js file in your project, and then,
 wherever you previously were using:
 
-	$('foo').serialize(true)
+    $('foo').serialize(true)
 
 You can now instead use:
 
-	$('#foo').serializeToObject()
+    $('#foo').serializeToObject()
 
 That's all there is to it!
+
+## Licensing
+
+Copyright 2013 Christopher L. Simons
+
+This code is distributed under the MIT/X Consortium License,
+which can be found in the in sole source code file.
