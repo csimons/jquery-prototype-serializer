@@ -22,6 +22,9 @@
 
 (function($) {
 	$.fn.serializeToObject = function() {
+		var decodeQueryStringPart = function(str) {
+			return decodeURIComponent(str.replace(/\+/g, ' '));
+		};
 		var obj = {};
 		var queryString = this.serialize();
 		if (queryString) {
