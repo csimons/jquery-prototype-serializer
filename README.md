@@ -16,6 +16,10 @@ You can now instead use:
 
 That's all there is to it!
 
+## Acknowledgements
+
+Thanks to John Newman for robustness improvements to the initial logic.
+
 ## Licensing
 
 Copyright 2013 Christopher L. Simons
