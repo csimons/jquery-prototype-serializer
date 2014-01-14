@@ -3,7 +3,7 @@
 jquery-prototype-serializer is a jQuery plugin that allows you to
 serialize forms as objects, equivalently to the Prototype
 serialize(true) call.  This can be useful when porting front-end code
-to jQuery when back-end code expects a serialized object.
+from Prototype.js to jQuery when back-end code expects a serialized object.
 
 To use, simply include the plugin's .js file in your project, and then,
 wherever you previously were using:
