@@ -8,11 +8,11 @@ from Prototype.js to jQuery when back-end code expects a serialized object.
 To use, simply include the plugin's .js file in your project, and then,
 wherever you previously were using:
 
-    $('foo').serialize(true)
+    $('foo').serialize(true)    // Here $ is Prototype's selector function.
 
 You can now instead use:
 
-    $('#foo').serializeToObject()
+    $('#foo').serializeToObject()  // Here $ is jQuery's selector function.
 
 That's all there is to it!
 
